@@ -9,11 +9,11 @@ namespace mdkversion
 {
     class Program
     {
+        static Mdkversion mdkver;
+
         static void Main(string[] args)
         {
-            var ret = args.ToList();
-            //var ret = list.ToList();
-            var mdkver = new Mdkversion(ret);
+            mdkver = new Mdkversion(args.ToList());
             mdkver.UpdateVersion();
 
             foreach (var str in mdkver.StatusMessages)
@@ -22,30 +22,6 @@ namespace mdkversion
             }
 
             var path = Directory.GetCurrentDirectory();
-
-            foreach (var item in ret)
-            {
-                Console.WriteLine(item);
-            }
-
-            Console.WriteLine(path);
-            Console.WriteLine(path);
-            Console.WriteLine(path);
-            Console.WriteLine("Ended...");
         }
-
-        static string[] list = new string[]
-        {
-            "/conf/conf.h",
-            "major=null",
-            "minor=month",
-            "rev=day",
-            "build"
-        };
-
-        static string[] list1 = new string[]
-        {
-            "?"
-        };
     }
 }

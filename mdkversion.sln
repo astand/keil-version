@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdkversion", "mdkversion\mdkversion.csproj", "{BD06C420-852E-4746-A862-5B27DF190631}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestMdkversion", "TestMdkversion\TestMdkversion.csproj", "{6E50FE58-74D9-4332-B084-BA7F85230E13}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BD06C420-852E-4746-A862-5B27DF190631}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD06C420-852E-4746-A862-5B27DF190631}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD06C420-852E-4746-A862-5B27DF190631}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E50FE58-74D9-4332-B084-BA7F85230E13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E50FE58-74D9-4332-B084-BA7F85230E13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E50FE58-74D9-4332-B084-BA7F85230E13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E50FE58-74D9-4332-B084-BA7F85230E13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
